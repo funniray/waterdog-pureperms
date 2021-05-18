@@ -19,7 +19,7 @@ public class JoinListener implements Consumer<PlayerLoginEvent> {
             if (!a) {
                 realName = p.substring(1);
             }
-            System.out.println("Permission: "+realName+" Active: "+(a?"true":"false"));
+            //System.out.println("Permission: "+realName+" Active: "+(a?"true":"false"));
             e.getPlayer().addPermission(new Permission(realName, a));
         }
     }
