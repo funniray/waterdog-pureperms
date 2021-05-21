@@ -2,7 +2,6 @@ package com.funniray.wdpureperms.listeners;
 
 import com.funniray.wdpureperms.WdPureperms;
 import dev.waterdog.event.defaults.PlayerLoginEvent;
-import dev.waterdog.event.defaults.PlayerPreLoginEvent;
 import dev.waterdog.utils.types.Permission;
 
 import java.util.Set;
