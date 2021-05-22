@@ -94,6 +94,9 @@ public class SQLSource implements Datasource {
                 Group group = getGroup(res.getString("userGroup"));
                 if (group == null) group = getGroup("default");
                 return new PPPlayer(name, group, permissions);
+            } else {
+                Group group = getGroup("default");
+                return new PPPlayer(name, group, new HashSet<>());
             }
         }catch(SQLException e) {
             e.printStackTrace();
