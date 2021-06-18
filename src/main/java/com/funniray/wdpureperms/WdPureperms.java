@@ -20,10 +20,10 @@ package com.funniray.wdpureperms;
 import com.funniray.wdpureperms.datasources.Datasource;
 import com.funniray.wdpureperms.datasources.SQLSource;
 import com.funniray.wdpureperms.listeners.JoinListener;
-import dev.waterdog.event.EventPriority;
-import dev.waterdog.event.defaults.PlayerLoginEvent;
-import dev.waterdog.plugin.Plugin;
-import dev.waterdog.utils.Configuration;
+import dev.waterdog.waterdogpe.event.EventPriority;
+import dev.waterdog.waterdogpe.event.defaults.PlayerLoginEvent;
+import dev.waterdog.waterdogpe.plugin.Plugin;
+import dev.waterdog.waterdogpe.utils.Configuration;
 
 import java.io.File;
 import java.io.IOException;
