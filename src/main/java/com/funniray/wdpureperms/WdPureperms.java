@@ -23,7 +23,7 @@ import com.funniray.wdpureperms.listeners.JoinListener;
 import dev.waterdog.waterdogpe.event.EventPriority;
 import dev.waterdog.waterdogpe.event.defaults.PlayerLoginEvent;
 import dev.waterdog.waterdogpe.plugin.Plugin;
-import dev.waterdog.waterdogpe.utils.Configuration;
+import dev.waterdog.waterdogpe.utils.config.Configuration;
 
 import java.io.File;
 import java.io.IOException;
