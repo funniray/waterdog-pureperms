@@ -64,12 +64,6 @@ public final class WdPureperms extends Plugin {
 
         source = new SQLSource(config.getString("jdbcurl"),config.getString("dbusername"),config.getString("dbpassword"));
 
-        if (getConfig().getBoolean("showpiracywarning")) {
-            this.getLogger().warn("A WaterDogPE plugin that attempts at being fully compatible with pureperms\n" +
-                    "A free plugin by Funniray. https://github.com/funniray/waterdog-pureperms If you paid for this plugin, you were scammed.\n" +
-                    "Report resellers to beingscammed@reallyisnt.fun");
-        }
-
         this.getProxy().getEventManager().subscribe(PlayerLoginEvent.class, new JoinListener(), EventPriority.HIGH);
     }
 
